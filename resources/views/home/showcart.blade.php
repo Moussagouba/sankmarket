@@ -116,7 +116,7 @@
             <div class="centero">
                 <h1 style="font-size: 25px;padding-bottom : 15px;">Proceder au payment</h1>
                 <a href="{{url('cash_order')}}" class="btn btn-danger">Payer à la livraison</a>
-                <a href="" class="btn btn-danger">Payer par carte bancaire</a>
+                <a href="{{url('stripe', $totalprice)}}" class="btn btn-danger">Payer par carte bancaire</a>
 
             </div>
 
